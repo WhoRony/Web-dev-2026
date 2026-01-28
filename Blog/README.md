@@ -6,7 +6,7 @@ This repository contains links to all the blog assignments written by me as part
 
 ## 🧑‍💻 Author
 
-**Name:** Rphan Kumar
+**Name:** Rohan Kumar
 **Purpose:** Assignment Submission / Concept Revision
 
 ---
