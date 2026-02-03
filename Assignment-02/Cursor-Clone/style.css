@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "cursorGothic-Regular";
+    src: url(/assets/CursorGothic_Regular-s.p.a361088d.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: "cursorGothic-Regular";
+    background-color: #000000;
+}
+
+nav{
+    display: flex;
+    height: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    font-size: 14px;
+}
+
+nav .top-left-img{
+    display: flex;
+    align-items: center;
+}
+nav .top-left-img .icon{
+    height: 2rem;
+}
+nav .top-left-img img{
+    height: 1rem;
+    color: white;
+}
+
+nav .middle-items ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+nav .middle-items ul li{
+    text-decoration: none;
+}
+nav .middle-items ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+nav .top-right-items{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+nav .top-right-items .first{
+    border-radius: 50px;
+    padding: 5.6px 10.5px 3.88px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #EDECEC;
+    color: #EDECEC;
+}
+
+
+nav .top-right-items .second{
+    border-radius: 50px;
+    padding: 5.6px 13.5px 3.88px;
+    font-size: 14px;
+    background-color: #EDECEC;
+    border: none;
+    color: #14120B;
+}
