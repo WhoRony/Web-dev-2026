@@ -1,7 +1,12 @@
 @font-face {
-    font-family: "cursorGothic-Regular";
+    font-family: "cursorGothic_Regular";
     src: url(/assets/CursorGothic_Regular-s.p.a361088d.woff2);
 }
+@font-face {
+    font-family: "cursorGothic_bold";
+    src: url(./assets/CursorGothic_Bold-s.p.95169710.woff2);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +16,7 @@
 body,html{
     height: 100%;
     width: 100%;
-    font-family: "cursorGothic-Regular";
-    background-color: #000000;
+    background-color: #14120B;
 }
 
 nav{
@@ -22,6 +26,10 @@ nav{
     align-items: center;
     padding: 1rem 6rem;
     font-size: 14px;
+    font-family: "cursorGothic_Regular";
+    background-color: #14120B;
+    position: sticky;
+    top: 0;
 }
 
 nav .top-left-img{
@@ -73,4 +81,108 @@ nav .top-right-items .second{
     background-color: #EDECEC;
     border: none;
     color: #14120B;
+}
+main{
+    padding: 1rem 6rem;
+    /* background-color: crimson; */
+}
+main .section-1{
+    font-family: "cursorGothic_bold";
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .section-1 h2{
+    margin-top: 6rem;
+    color: #EDECEC;
+}
+
+main .section-1 button{
+    border-radius: 50px;
+    padding: 12.48px 21.6px 12.8px;
+    font-size: 16px;
+    background-color: #EDECEC;
+    border: none;
+    color: #14120B;
+    width: fit-content;
+}
+
+main .section-1 img{
+    margin-top: 12px;
+    border-radius: 12px;
+    height: 45rem;
+}
+
+/* main .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+main .section-2 p{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "cursorGothic_Regular";
+    margin-top: 4rem;
+}
+
+main .section-2 .logo-collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+main .section-2 .logo-collection .logo{
+    width: 9rem;
+    height: 5.2rem;
+    background-color: #1B1913;
+    border-radius: 12px;
+}
+main .section-2 .logo-collection .logo img{
+    height: 2.6rem;
+    margin-top: 16px;
+    padding: 0px 2.5rem;
+} */
+
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding:4rem 0px ;
+}
+
+.section-2 p {
+    color: #ffffff;
+    font-family: "cursorGothic_Regular";
+    text-align: center;
+    font-size: 1rem;
+}
+
+.logo-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    width: 9rem;
+    height: 5.2rem;
+    background-color: #1B1913;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img {
+    height: 2.6rem;
 }
