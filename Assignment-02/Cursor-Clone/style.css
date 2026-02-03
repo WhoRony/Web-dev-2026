@@ -24,12 +24,13 @@ nav{
     height: 3rem;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 6rem;
+    padding: 1rem 8rem;
     font-size: 14px;
     font-family: "cursorGothic_Regular";
     background-color: #14120B;
     position: sticky;
     top: 0;
+    overflow: hidden;
 }
 
 nav .top-left-img{
@@ -83,8 +84,7 @@ nav .top-right-items .second{
     color: #14120B;
 }
 main{
-    padding: 1rem 6rem;
-    /* background-color: crimson; */
+    padding: 1rem 8rem;
 }
 main .section-1{
     font-family: "cursorGothic_bold";
@@ -115,41 +115,6 @@ main .section-1 img{
     height: 45rem;
 }
 
-/* main .section-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 12px;
-}
-
-main .section-2 p{
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
-    font-family: "cursorGothic_Regular";
-    margin-top: 4rem;
-}
-
-main .section-2 .logo-collection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-
-main .section-2 .logo-collection .logo{
-    width: 9rem;
-    height: 5.2rem;
-    background-color: #1B1913;
-    border-radius: 12px;
-}
-main .section-2 .logo-collection .logo img{
-    height: 2.6rem;
-    margin-top: 16px;
-    padding: 0px 2.5rem;
-} */
-
-
 .section-2 {
     display: flex;
     flex-direction: column;
@@ -169,7 +134,7 @@ main .section-2 .logo-collection .logo img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 17px;
 }
 
 .logo {
@@ -185,4 +150,49 @@ main .section-2 .logo-collection .logo img{
 
 .logo img {
     height: 2.6rem;
+}
+
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.section-3 .sec3-container{
+    background-color: #1B1913;
+    display: flex ;
+    align-items: center;
+    border-radius: 12px;
+    color: white;    
+}
+
+.sec3-container .text-section{
+    padding: 1rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 40%;
+}
+.sec3-container .text-section .first-text{
+
+    font-family: "cursorGothic_bold";
+    font-size: 22px;
+}
+
+.sec3-container .text-section .second-text{
+    font-family: "cursorGothic_Regular";
+    color: grey;
+    font-weight: 400;
+}
+
+.sec3-container .text-section p{
+    font-family: "cursorGothic_Regular";
+    color: #F54E00;
+}
+
+.section-3 .sec3-container .image-section img{
+    height: 100%;
+    padding: 1rem ;
+    width: 100%;
+    border-radius: 3%;
 }
