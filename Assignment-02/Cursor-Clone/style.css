@@ -94,9 +94,11 @@ main .section-1{
     gap: 2rem;
 }
 
-main .section-1 h2{
+main .section-1 p{
+    font-family: "cursorGothic_Regular";
     margin-top: 6rem;
     color: #EDECEC;
+    font-size: 23px;
 }
 
 main .section-1 button{
