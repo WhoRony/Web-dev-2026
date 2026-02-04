@@ -1,7 +1,5 @@
 # Cursor Website Footer Clone : 
-# Live link [Cursor Clone](endearing-pegasus-be89e5.netlify.app)
-
-
+Live Link: [Cursor Clone](endearing-pegasus-be89e5.netlify.app)
 A clean and responsive clone of the Cursor AI website footer, built using only HTML and CSS.
 
 ---
