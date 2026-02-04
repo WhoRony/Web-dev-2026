@@ -65,14 +65,18 @@ Fonts are loaded locally using `@font-face`.
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
+```text
 Cursor-Clone/
 │
 ├── index.html
 ├── style.css
 ├── assets/
-│ ├── images
-│ └── fonts
+│   ├── images/
+│   └── fonts/
 └── README.md
+
 
 ---
 
