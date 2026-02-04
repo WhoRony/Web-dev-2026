@@ -1,99 +1,97 @@
-# Cursor Website Footer Clone : 
-Live Link: [Cursor Clone](endearing-pegasus-be89e5.netlify.app)
-A clean and responsive clone of the Cursor AI website footer, built using only HTML and CSS.
+# Cursor Website Clone 🚀
+
+A frontend clone of the **Cursor AI official website**, built using **HTML and CSS**.  
+This project focuses on layout recreation, typography, spacing, and modern UI design.
 
 ---
 
-## 📌 Description
+## 🔗 Live Demo
 
-This project recreates the footer section of the Cursor AI website.  
-The main goal of this project is to practice real-world UI layout, spacing, and structure using pure HTML and CSS.
-
----
-
-## 🧩 Sections Included
-
-- Product
-  - Features
-  - Enterprise
-  - Web Agents
-  - Bugbot
-  - CLI
-  - Pricing
-
-- Resources
-  - Download
-  - Changelog
-  - Docs
-  - Learn
-  - Forum
-  - Status
-
-- Company
-  - Careers
-  - Blog
-  - Community
-  - Workshops
-  - Students
-  - Brand
-
-- Legal
-  - Terms of Service
-  - Privacy Policy
-  - Data Use
-  - Security
-
-- Connect
-  - X
-  - LinkedIn
-  - YouTube
+👉 **Live Website:**  
+https://endearing-pegasus-be89e5.netlify.app
 
 ---
 
-## 🎨 Design
+## 📌 Sections Recreated
 
-- Dark theme
-- Multi-column layout
-- Clean typography
-- Proper spacing and alignment
-- Hover effects on links
+The following sections were recreated based on the Cursor website design:
+
+- ✅ Sticky Navigation Bar  
+- ✅ Hero Section (Download CTA + Banner Image)  
+- ✅ Trusted By Logos Section  
+- ✅ Feature Sections with Text & Images  
+- ✅ Testimonials Grid  
+- ✅ “Stay on the Frontier” Cards Section  
+- ✅ Changelog Section  
+- ✅ Team / Careers Section  
+- ✅ Recent Highlights Section  
+- ✅ Call-to-Action Download Section  
+- ✅ Footer with Product, Resources, Company & Legal Links  
 
 ---
 
-## 🛠️ Technologies Used
+## 🎨 Fonts Used
 
-- HTML5
-- CSS3
-- Flexbox
-- CSS Grid
+- **Cursor Gothic Regular**
+- **Cursor Gothic Bold**
+
+Fonts are loaded locally using `@font-face`.
+
+---
+
+## 🎯 Color Palette
+
+| Purpose | Color |
+|-------|-------|
+| Background | `#14120B` |
+| Card Background | `#1B1913` |
+| Primary Text | `#EDECEC` |
+| Secondary Text | `#B5B5B5` |
+| Accent / Links | `#F54E00` |
+| White Text | `#FFFFFF` |
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3 (Flexbox & Grid)**
+- **Remix Icons**
+- **Netlify (Deployment)**
 
 ---
 
 ## 📂 Project Structure
 
-project/
+Cursor-Clone/
 │
 ├── index.html
 ├── style.css
+├── assets/
+│ ├── images
+│ └── fonts
+└── README.md
 
 ---
 
-## 🎯 Purpose
+## 🎯 Learning Outcomes
 
-- Practice HTML & CSS fundamentals
-- Learn real-world footer layouts
-- Improve UI design skills
-- Prepare for React and component-based layouts
+- Improved CSS layout skills (Flexbox & Grid)
+- Sticky navbar behavior
+- Component-based section styling
+- Real-world UI cloning practice
+- Clean folder and asset management
 
 ---
 
 ## ⚠️ Disclaimer
 
-This project is made for educational purposes only.  
-Design inspiration belongs to Cursor AI.
+This project is created **for educational purposes only**.  
+All design credits belong to **Cursor AI**.
 
 ---
 
 ## 👤 Author
 
-Rohan
+**Rohan Kumar**  
+Frontend Developer in Progress 🚀
