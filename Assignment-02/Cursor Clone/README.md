@@ -77,7 +77,7 @@ Cursor-Clone/
 │   └── fonts/
 └── README.md
 
-
+```
 ---
 
 ## 🎯 Learning Outcomes
@@ -92,8 +92,12 @@ Cursor-Clone/
 
 ## ⚠️ Disclaimer
 
-This project is created **for educational purposes only**.  
-All design credits belong to **Cursor AI**.
+## 📱 Responsiveness
+
+> This project is built using a **desktop-first approach**.  
+> It is **not responsive yet** and is best viewed on desktop or large screens.  
+> Mobile and tablet responsiveness will be added in future updates.
+
 
 ---
 
