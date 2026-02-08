@@ -10,6 +10,7 @@ This project focuses on layout recreation, typography, spacing, and modern UI de
 👉 **Live Website:**  
 https://endearing-pegasus-be89e5.netlify.app
 
+
 ---
 <img width="1894" height="900" alt="image" src="https://github.com/user-attachments/assets/1d082472-4ca9-4e2f-bfd9-85a80922a5e1" />
 
