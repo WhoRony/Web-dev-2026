@@ -64,7 +64,6 @@ Fonts are loaded locally using `@font-face`.
 
 ---
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
